@@ -9,7 +9,6 @@ using namespace std;
 void selectionSort(int arr[], int Size);
 void swap(int *i, int *place);
 int print(int arr[], int Size);
-//void selectionSortTEXT(int arr[], int Size);
 int printTEXT(char arr[][MAX_LEN]);
 void selectionSortTEXT(char arr[][50], int n);
 
@@ -17,7 +16,7 @@ void selectionSortTEXT(char arr[][50], int n);
 
 int main()
 {
-	/*srand((unsigned) time(0));
+	srand((unsigned) time(0));
 	int arr[30];
 	for (int i = 0; i < 30; i++)
 	{
@@ -27,7 +26,7 @@ int main()
 	print(arr, 30);
 	selectionSort(arr, 30);
 	cout  << "the array befor sorting  ";
-	print(arr, 30);*/
+	print(arr, 30);
 
 	char text[][MAX_LEN] = { "paper", "true", "soap" ,"floppy" ,"flower" };
 	printTEXT(text);
